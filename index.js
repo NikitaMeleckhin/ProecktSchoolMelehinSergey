@@ -9,9 +9,14 @@
 var modal = document.getElementById("#myModal");
 
 // Показываем модальное окно при загрузке страницы
-window.onload = function () {
+// window.onload = function () {
+//   modal.style.display = "block";
+// };
+
+$(document).ready(function(){   
   modal.style.display = "block";
-};
+});
+
 
 // Функция для проверки пароля
 function checkPassword() {
